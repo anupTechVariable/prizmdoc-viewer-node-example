@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Accusoft PrizmDoc Viewer Node Example</title>
+</head>
+<body>
+  <h1 class="title"><span>Accusoft PrizmDoc Viewer Node Example</span></h1>
+  <ul>
+  {{#each files }}
+    <li><a href="/view/{{ this }}" target="_blank">{{ this }}</a></li>
+  {{/each}}
+  </ul>
+</body>
+</html>

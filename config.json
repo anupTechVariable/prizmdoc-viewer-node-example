@@ -1,0 +1,5 @@
+{
+  "listenPort": "8080",
+  "apiRootUrl": "https://{{baseUrl}}",
+  "apiKey": "{{acs_api_key}}"
+}

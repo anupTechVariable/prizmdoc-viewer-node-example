@@ -1,0 +1,32 @@
+{
+  "name": "prizmdoc-viewer-node-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "http-proxy": "^1.13.2",
+    "jquery": "^2.2.1",
+    "request": "^2.69.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7",
+    "stringify": "^5.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "scripts": {
+    "preinstall": "gulp js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED"
+}
