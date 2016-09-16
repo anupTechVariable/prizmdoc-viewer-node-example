@@ -10,8 +10,7 @@ let config = require('../config.json');
 
 function createViewingSession() {
   return request.postAsync({
-    //TODO: get url from config
-    url: 'https://api.accusoft.com/PCCIS/V1/ViewingSession',
+    url: config.apiRootUrl + '/PCCIS/V1/ViewingSession',
     headers: {
       'acs-api-key': config.apiKey
     },
@@ -31,8 +30,7 @@ function createViewingSession() {
 function putFile(viewingSessionId, fileName) {
   fs.createReadStream(path.join(__dirname, '../documents', fileName))
     .pipe(request.put({
-      //TODO: get url from config
-      url: 'https://api.accusoft.com/PCCIS/V1/ViewingSession/u' + viewingSessionId + '/SourceFile',
+      url: config.apiRootUrl + '/PCCIS/V1/ViewingSession/u' + viewingSessionId + '/SourceFile',
       headers: {
         'acs-api-key': config.apiKey
       }

@@ -5,8 +5,7 @@ let httpProxy = require('http-proxy');
 let config = require('../config.json');
 
 let proxy = new httpProxy.createProxyServer({
-  //TODO: get url from config
-  target: 'https://api.accusoft.com',
+  target: config.apiRootUrl,
   headers: {
     'acs-api-key': config.apiKey,
     host: 'api.accusoft.com'
