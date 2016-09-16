@@ -10,6 +10,6 @@ This example will present the user with a variety of documents. When the user na
 
 Requires Node v4+ and Gulp. Install Gulp via `npm install gulp -g`.
 
-1. Edit `/config.json` and insert your PrizmDoc Hosted (ACS) API Key, as well as the API base URL. The latter depends on your region; use `api.accusoft.com` for North America and `api.accusoft.sa` for Brazil.
+1. Edit `/config.json` and insert your PrizmDoc Hosted (ACS) API Key, as well as the API base URL. The latter depends on your region; use `api.accusoft.com` for North America and `api.accusoft.com.br` for Brazil.
 2. Run `npm install`
 3. Run `node index.js`
