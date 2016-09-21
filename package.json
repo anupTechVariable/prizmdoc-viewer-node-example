@@ -1,6 +1,6 @@
 {
   "name": "prizmdoc-viewer-node-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "private": true,
@@ -24,7 +24,7 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "scripts": {
-    "preinstall": "gulp js",
+    "postinstall": "gulp js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
